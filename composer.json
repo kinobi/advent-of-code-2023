@@ -1,0 +1,25 @@
+{
+    "name": "kinobi/advent-of-code-2023",
+    "type": "project",
+    "require-dev": {
+        "pestphp/pest": "^2.26",
+        "symfony/var-dumper": "^7.0"
+    },
+    "license": "UNLICENSE",
+    "autoload": {
+        "psr-4": {
+            "Kinobi\\AdventOfCode2023\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lionel Brianto",
+            "email": "kinobi@users.noreply.github.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
